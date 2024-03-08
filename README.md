@@ -11,7 +11,9 @@ This analysis scrutinizes the patterns and predictors of customer churn at Syria
 Objectives
 
 Identifying Churn Factors: Understand the factors contributing to customer churn by analyzing data on customer behavior, service usage, and interaction patterns.
+
 Predictive Modeling: Develop machine learning models to predict which customers are at risk of churning. This involves using historical data to create models that can anticipate future customer behavior.
+
 Improve the model using hyperparameter tuning to increase its accuracy.
 
 
@@ -28,14 +30,24 @@ The analysis utilizes a telecommunications dataset containing information on cus
 Methodology
 
 Data Understanding: Exploratory data analysis (EDA) to understand the dataset, identify missing values, and address outliers.
+
 Feature Engineering: Removal of irrelevant features, handling multicollinearity, and one-hot encoding of categorical variables.
+
 Data Scaling: Scaling of numerical features to ensure consistent model performance.
+
 Handling Class Imbalance: Employed Synthetic Minority Over-sampling Technique (SMOTE) to address class imbalance in the 'churn' feature.
+
 Modeling: Utilized Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting for predictive modeling.
+
 Hyperparameter Tuning: Tuned hyperparameters for Random Forest and Gradient Boosting models to optimize performance.
+
 Model Comparison: Evaluated models based on ROC curves, F1 scores, and accuracy.
+
 Insights and Recommendations: Derived insights from feature importance and model evaluations to guide strategies for customer retention.
+
+
 Results and Insights
+
 Gradient Boosting Classifier, with tuned hyperparameters, demonstrated superior performance in predicting customer churn.
 Identified high-value customer segments, prioritized retention efforts based on churn risk, and provided personalized service recommendations.
 
